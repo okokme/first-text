@@ -1,0 +1,4 @@
+DEBUG: 2019-05-16 13:38:33.0197 EventLoop.cc: 28: run: active channels are 1
+DEBUG: 2019-05-16 13:38:33.0197 Channel.cc: 46: handleEvent: fd(5)'s revents is POLLIN
+DEBUG: 2019-05-16 13:39:35.0065 EventLoop.cc: 28: run: active channels are 1
+DEBUG: 2019-05-16 13:39:35.0065 Channel.cc: 46: handleEvent: fd(5)'s revents is POLLIN
