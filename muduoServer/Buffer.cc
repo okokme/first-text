@@ -12,7 +12,7 @@ size_t Buffer::readFd(int fd) {
     vec[1].iov_base = extrabuf;
     vec[1].iov_len = sizeof(extrabuf);
     
-    int n = readv(fd, iov, 2);
+    int n = readv(fd, vec, 2);
     assert( n >= 0 );
     if( n<= writen )
         _writeindex += n;
